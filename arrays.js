@@ -97,14 +97,26 @@ var numeros=[1,3,3]
 // promedio= resultado/numeros.length;
 // console.log(promedio);
 
-numeroMasGrande=0
-for(i=0;i<numeros.length;i++){
-   if(numeroMasGrande < numeros[i]){
-      numeroMasGrande=numeros[i]
-   } 
-}
-console.log(numeroMasGrande);
+// numeroMasGrande=0
+// for(i=0;i<numeros.length;i++){
+//    if(numeroMasGrande < numeros[i]){
+//       numeroMasGrande=numeros[i]
+//    } 
+// }
+// console.log(numeroMasGrande);
 
-var num=980;
-var particion= num.toString();
-console.log(particion.charAt(0));
+// var num=980;
+// var particion= num.toString();
+// console.log(particion.charAt(0));
+
+var meses= ['Enero','Febrero','Marzo','Abril','Mayo','Junio']
+var Lista=[]
+
+for(i=0;i < meses.length;i++){
+    if(meses[i]==='Enero' || meses[i]==='Marzo' || meses[i]==='Noviembre'){
+        Lista.push(meses[i]);
+    }
+}
+
+console.log(Lista)
+
