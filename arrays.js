@@ -120,3 +120,17 @@ for(i=0;i < meses.length;i++){
 
 console.log(Lista)
 
+String.prototype.reverse=function(){
+    var nuevaString=this.split('');
+    var nuevaPalabra=[];
+    for(i=nuevaString.length-1;i<0;i--){
+       nuevaPalabra.push(nuevaString[i]);
+    }
+    var palabra=nuevaPalabra.join('');
+    return palabra;
+ }
+
+var str='Hola'
+var palabrain= str.reverse();
+
+console.log(palabrain)

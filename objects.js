@@ -43,3 +43,11 @@ var diferenciaDeNotaciones= function(propUno,propDos){
 
 diferenciaDeNotaciones('Saludables','NoSaludables')
 console.log(comidas)
+
+function mayuscula(nombre){
+    return nombre.charAt(0).toUpperCase() + nombre.slice(1);
+}
+
+var resultado= mayuscula('juan')
+
+console.log(resultado)

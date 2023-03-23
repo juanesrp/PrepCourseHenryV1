@@ -40,3 +40,12 @@ var mascota = {
 };
 
 mascota.info();
+
+///
+var objetoProducto={precio:10,porcentajeDeDescuento:0.2};
+
+objetoProducto.calcularPrecioDescuento= function(){
+   var precioConDescuento = this.precio * (1 - this.porcentajeDeDescuento);
+   return precioConDescuento;
+   }
+   console.log(objetoProducto);
