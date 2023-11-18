@@ -1,6 +1,6 @@
 function cuidadoConElConsoleLog(nombre) {
     return nombre;
-    console.log(nombre);
+    console.log(nombre);/*Lo que haya después de un return no se ejecutará*/
   }
 
 function otraFuncion(){
